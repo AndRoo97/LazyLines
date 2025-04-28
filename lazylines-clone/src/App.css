@@ -1,0 +1,27 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+.comments-container {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .signin-container {
+    width: 100%;
+  }
+
+  .comments-container {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .signin-container {
+    width: 50%;
+  }
+}
