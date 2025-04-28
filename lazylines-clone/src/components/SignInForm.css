@@ -61,11 +61,10 @@ form {
 
 .input-group {
     margin-bottom: 25px;
-    font-weight: 1200;
 }
 
 label {
-    font-weight: 1200;
+    font-weight: 500;
     display: block;
     margin-bottom: 8px;
     margin-right: 8px;
