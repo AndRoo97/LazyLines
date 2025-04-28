@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="app-container">
       <SignInForm />
-      <div className="testimonials-container-wrapper">
+      <div className="comments-container-wrapper">
         <Comments />
       </div>
     </div>

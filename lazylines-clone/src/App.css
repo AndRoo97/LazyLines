@@ -2,7 +2,7 @@
   display: flex;
   min-height: 100vh;
 }
-.comments-container {
+.comments-container-wrapper{
   width: 50%;
 }
 
@@ -15,7 +15,7 @@
     width: 100%;
   }
 
-  .comments-container {
+  .comments-container-wrapper {
     display: none;
   }
 }

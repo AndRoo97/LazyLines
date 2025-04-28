@@ -1,0 +1,247 @@
+/* src/components/SignInForm.css */
+.app-container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.signin-container {
+    font-family: Poppins, sans-serif;
+    min-height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main{
+    width: 100%;
+    max-width: 500px;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+.logo svg {
+    width: 26px;
+    height: 27px;
+    color: #1976d2;
+}
+
+.signin-label {
+    text-align: left;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+    text-align: left;
+    font-weight: 600;
+    color: #101828;
+    font-size: 30px;
+}
+
+form {
+    width: 100%;
+    max-width: none;
+}
+
+.input-group {
+    margin-bottom: 25px;
+    font-weight: 1200;
+}
+
+label {
+    font-weight: 1200;
+    display: block;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    color: #555;
+    font-size: 1rem;
+    align-items: center;
+}
+
+a {
+    display: block;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    color: #555;
+    font-size: 1rem;
+    align-items: center;
+}
+
+input[type='email'],
+input[type='password'] {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    font-size: 0.875rem;
+    background-color: #fff;
+    color: #667085;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type='email'],
+input[type='password']::placeholder {
+    color: #667085;
+}
+
+input[type='password'] + a {
+    display: block;
+    text-align: right;
+    margin-top: 8px;
+    color: #1976d2;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.signin-button {
+    width: 100%;
+    background-color: #3b82f6;
+    font-weight: 600;
+    font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    border-color: #3b82f6;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    gap: 0.5rem;
+    white-space: nowrap;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    margin-top: 1.5rem;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.signin-button:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.signin-button:active {
+    box-shadow: none;
+}
+
+.signin-button:disabled {
+    background-color: #cbd5e1;
+    border-color: #cbd5e1;
+    cursor: not-allowed;
+}
+
+.google-signin-button {
+    width: 100%;
+    background-color: #fff;
+    color: #344054;
+    font-weight: 600;
+    font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    gap: 0.5rem;
+    white-space: nowrap;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.google-signin-button svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+.google-signin-button:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* hover:shadow-lg */
+}
+
+.google-signin-button:active {
+    box-shadow: none;
+}
+
+.google-signin-button:disabled {
+    border-color: #cbd5e1;
+    color: #cbd5e1;
+    cursor: not-allowed;
+}
+
+.signup-link {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-link a {
+    color: #337BFF;
+    text-decoration: none;
+}
+
+.footer-main{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.company-email{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media (max-width: 767px) {
+    .signin-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 639px) {
+.footer-main {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
