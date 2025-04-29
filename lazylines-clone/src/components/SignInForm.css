@@ -217,6 +217,14 @@ input[type='password'] + a {
     text-decoration: none;
 }
 
+.footer { 
+    width: 100%;
+    padding-bottom: 2.5rem;
+    color: #475467;
+    display: flex;
+    justify-content: center; 
+}
+
 .footer-main{
     width: 100%;
     max-width: 500px;
