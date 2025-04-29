@@ -1,4 +1,4 @@
-/* src/components/SignInForm.css */
+
 .app-container {
     display: flex;
     min-height: 100vh;
@@ -21,8 +21,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .main{
@@ -84,7 +84,7 @@ a {
 
 input[type='email'],
 input[type='password'] {
-    font-family: "Roboto", sans-serif;
+    font-family: Poppins, sans-serif;
     width: 100%;
     padding-left: 1rem;
     padding-right: 1rem; 
@@ -188,7 +188,7 @@ input[type='password'] + a {
     margin-right: 15px;
 }
 .google-signin-button:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* hover:shadow-lg */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .google-signin-button:active {

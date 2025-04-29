@@ -50,7 +50,7 @@ interface Testimonial {
                     <div
                         className="comment-card"
                         key={index}
-                        style={{ transform: `rotate()` }}
+                        style={{ transform: `rotate(${testimonial.rotation}deg)` }}
                     >
                         <div className="comment-header">
                             <div
@@ -70,7 +70,7 @@ interface Testimonial {
                 <div
                     className="comment-card duplicated"
                     key={`duplicated-${index}`}
-                    style={{ transform: `rotate()` }}
+                    style={{ transform: `rotate(${testimonial.rotation}deg)` }}
                 >
                 <div className="comment-header">
                     <div
@@ -89,7 +89,7 @@ interface Testimonial {
                 <div
                     className="comment-card duplicated"
                     key={`duplicated-${1}`}
-                    style={{ transform: `rotate()` }}
+                    style={{ transform: `rotate(${testimonial.rotation}deg)` }}
                 >
                 <div className="comment-header">
                     <div
