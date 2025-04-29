@@ -39,7 +39,7 @@
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 120px;
     margin-bottom: 32px;
     background-color: transparent;
     display: flex;
@@ -51,6 +51,10 @@
     padding-left:4rem;
     padding-right:4rem;
   }
+
+h2{
+    font-weight: 600;
+}
 
   .comments-wrapper h2 {
     margin: 0;
@@ -117,7 +121,7 @@
     margin-top: 4px;
     color: #708090;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 0.665;
     box-sizing: border-box;
   }

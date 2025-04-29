@@ -15,21 +15,21 @@ interface Testimonial {
   const commentsData: Testimonial[] = [
     {
       name: 'Mark Patrick',
-      title: '24K+ Followers / Personal Brand',
+      title: '24K+ Followers/Personal Brand',
       image: testimonial3,
       text: '"Excellent tool! I have been using LazyLines for a few months now and it has helped me create videos that got over 40k views."',
       rotation: -4.82,
     },
     {
       name: 'Kenny Nwokoye',
-      title: '100K+ Followers / Affiliate Marketer',
+      title: '100K+ Followers/Affiliate Marketer',
       image: testimonial2,
       text: '"This tool is revolutionary. It has completely changed the way I make short-form videos. The ideas are unique, the hooks are attention-grabbing, and the scripts have that viral flair."',
       rotation: -2.33,
     },
     {
       name: 'Create Content Club',
-      title: '180K+ Followers / Creators',
+      title: '180K+ Followers/Creators',
       image: testimonial1,
       text: '"We found LazyLines really useful and most definitely an interesting tool. The features of LazyLines have great potential."',
       rotation: 0.66,
