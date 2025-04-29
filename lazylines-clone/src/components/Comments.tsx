@@ -85,6 +85,25 @@ interface Testimonial {
                     <div className="comment-text">{testimonial.text}</div>
                 </div>
                 ))}
+                {commentsData.map((testimonial, index) => (
+                <div
+                    className="comment-card duplicated"
+                    key={`duplicated-${1}`}
+                    style={{ transform: `rotate()` }}
+                >
+                <div className="comment-header">
+                    <div
+                        className="testimonial-image-container"
+                        style={{ backgroundImage: `url(${testimonial.image})` }}
+                    ></div>
+                    <div className="comment-info">
+                        <h3 className="comment-name">{testimonial.name}</h3>
+                        <h3 className="comment-title">{testimonial.title}</h3>
+                    </div>
+                </div>
+                    <div className="comment-text">{testimonial.text}</div>
+                </div>
+                ))}
 
                 
             </div>
